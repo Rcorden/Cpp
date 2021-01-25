@@ -99,7 +99,7 @@ void BinaryTreeSearch::InvertBinaryTree(BinaryTreeNode* leaf)
 		InvertBinaryTree(leaf->left);
 		InvertBinaryTree(leaf->right);
 
-		BinaryTreeNode* temp = leaf->left; //Memory Leak?
+		BinaryTreeNode* temp = leaf->left;
 		leaf->left = leaf->right;
 		leaf->right = temp;
 	}
