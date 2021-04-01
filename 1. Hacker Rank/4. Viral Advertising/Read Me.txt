@@ -1,0 +1,3 @@
+Solution to Hacker Rank Viral Advertising problem
+
+https://www.hackerrank.com/challenges/strange-advertising/problem
